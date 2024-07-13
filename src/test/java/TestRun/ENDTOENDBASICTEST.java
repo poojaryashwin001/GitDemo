@@ -30,8 +30,8 @@ public void ENDTOENDBASIC(HashMap<String, String > map) throws InterruptedExcept
 
 
 
-       // System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\ashwin.poojari\\\\Downloads\\\\chromedriver-win64 (5)\\\\chromedriver-win64\\\\chromedriver.exe");
-       //WebDriver driver = new ChromeDriver();
+       System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\ashwin.poojari\\\\Downloads\\\\chromedriver-win64 (5)\\\\chromedriver-win64\\\\chromedriver.exe");
+      WebDriver driver = new ChromeDriver();
        // driver.get("https://rahulshettyacademy.com/client");
         // driver.findElement(By.id("userEmail")).sendKeys("anshika@gmail.com");
         // driver.findElement(By.id("userPassword")).sendKeys("Iamking@000");
